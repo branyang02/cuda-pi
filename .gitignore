@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.so
+*.o
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CUDA compilation artifacts
+*.fatbin
+*.cubin
+*.ptx
+
+# PyTorch/CUDA cache
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.claude

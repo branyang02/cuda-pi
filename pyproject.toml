@@ -1,0 +1,19 @@
+[project]
+name = "cuda-loader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Brandon Yang", email = "jqm9ba@virginia.edu" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "torch==2.5.1",
+]
+
+[project.scripts]
+cuda-loader = "cuda_loader:main"
+
+[build-system]
+requires = ["setuptools>=61", "torch==2.5.1"]
+build-backend = "setuptools.build_meta"
