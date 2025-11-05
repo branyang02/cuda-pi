@@ -1,5 +1,5 @@
 [project]
-name = "cuda-loader"
+name = "cuda-pi"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-cuda-loader = "cuda_loader:main"
+cuda-pi = "cuda_pi:main"
 
 [build-system]
 requires = ["setuptools>=61", "torch==2.5.1"]

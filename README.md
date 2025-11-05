@@ -1,4 +1,4 @@
-# `cuda-loader`
+# `cuda-pi`
 
 A shitty CUDA loader for datasets. How shitty can it be? Very shitty.
 
